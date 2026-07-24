@@ -1,7 +1,4 @@
-palavra = "arara"
+for i in range(10, 0, -1):
+    print(i)
 
-if palavra == palavra[::-1]:
-    print("É palíndromo")
-else:
-    print("Não é palíndromo")
-
+print("Fim!")
