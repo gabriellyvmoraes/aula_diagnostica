@@ -1,13 +1,5 @@
-numero = 17
+notas = [7, 8, 9, 10]
 
-primo = True
+media = sum(notas) / len(notas)
 
-for i in range(2, numero):
-    if numero % i == 0:
-        primo = False
-        break
-
-if primo:
-    print("É primo")
-else:
-    print("Não é primo")
+print("Média:", media)
