@@ -1,11 +1,6 @@
-texto = "Python"
+numeros = [9, 3, 5, 1, 8]
 
-vogais = "aeiouAEIOU"
-contador = 0
+numeros.sort()
 
-for letra in texto:
-    if letra in vogais:
-        contador += 1
-
-print("Vogais:", contador)
+print(numeros)
 
