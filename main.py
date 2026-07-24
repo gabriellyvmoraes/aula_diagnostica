@@ -1,5 +1,11 @@
-notas = [7, 8, 9, 10]
+texto = "Python"
 
-media = sum(notas) / len(notas)
+vogais = "aeiouAEIOU"
+contador = 0
 
-print("Média:", media)
+for letra in texto:
+    if letra in vogais:
+        contador += 1
+
+print("Vogais:", contador)
+
