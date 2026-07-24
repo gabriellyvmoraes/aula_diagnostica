@@ -1,6 +1,7 @@
-numeros = [9, 3, 5, 1, 8]
+palavra = "arara"
 
-numeros.sort()
-
-print(numeros)
+if palavra == palavra[::-1]:
+    print("É palíndromo")
+else:
+    print("Não é palíndromo")
 
