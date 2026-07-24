@@ -1,7 +1,13 @@
-numero = 5
-fatorial = 1
+numero = 17
 
-for i in range(1, numero + 1):
-    fatorial *= i
+primo = True
 
-print("Fatorial:", fatorial)
+for i in range(2, numero):
+    if numero % i == 0:
+        primo = False
+        break
+
+if primo:
+    print("É primo")
+else:
+    print("Não é primo")
