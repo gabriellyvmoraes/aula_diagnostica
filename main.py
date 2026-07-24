@@ -1,6 +1,5 @@
-numero = 7
+numero = 8
 
-if numero % 2 == 0:
-    print("Par")
-else:
-    print("Ímpar")
+for i in range(1, 11):
+    print(f"{numero} x {i} = {numero * i}")
+
